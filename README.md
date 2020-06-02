@@ -7,8 +7,8 @@ LodView is easy to configure and deploy for any developer and it dramatically im
 In this fork of the LodView project we've implemented some improvements for cyrillic characters support and added some UI improvements.
 
 ## Installation instruction
-See [the wiki page](https://github.com/dvcama/LodView/wiki).
-
+See [the wiki page](https://github.com/dvcama/LodView/wiki). 
+Change repository name to https://github.com/ManlyMan1/LodView_Cyrillic.git
 ## Some interesting features
 ##### Content negotiation and serialization
 LodView allows you to publish RDF data offering a lot of different serializations. It handles content negotiation requests with or without 303 redirections: at the same IRI you can fully access different versions of the resource (HTML, turtle, n-triples, json, json-ld, and many more) or you can set a suffix useful to redirect some requests to an HTML representation of the resource (eg. `http://example.com/resource/aaaa/html`). You can also override content negotiation features adding the 'output' parameter to the URL and specifying which serialization format you want to access, e.g. `http://example.com?output=application/ld-json`).

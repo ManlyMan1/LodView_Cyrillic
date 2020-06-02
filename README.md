@@ -3,23 +3,8 @@ LodView is a Java web application based on Spring and Jena, it's a tool able to 
 
 LodView is easy to configure and deploy for any developer and it dramatically improves the end user’s experience in accessing HTML based representations of RDF resources.
 
-## About us
-LodView (as [LodLive](https://github.com/dvcama/LodLive)) is ideated and maintained by Diego Valerio Camarda and Alessandro Antonuccio. [Diego](https://www.linkedin.com/in/dvcama) is the RDF guy behind the technology, and [Alessandro](http://hstudio.it) is the designer responsible for the interface and the UX.
-
-## Why develop it (for free)
-We believe that the dereferencing layer has to be independent from the SPARQL endpoint implementation so during these last years we preferred using [Pubby](http://wifo5-03.informatik.uni-mannheim.de/pubby/) to other software for publishing our data. Probably you don't know this, but you already know Pubby, it is used to publish DBpedia data and a lot of other Linked Open Data out there. Sadly, it is pretty old and its development appears to have stopped, so we created LodView taking inspiration from some of the features in it we really appreciated.
-
-LodView shares Pubby philosophy; the configuration approach (an RDF file) and the basic technologies (we also use Apache Jena) are very similar, both interfaces even look somewhat alike, but we have made some important improvements according to the [RDF 1.1 Standard](https://www.w3.org/TR/rdf11-concepts/). We have added new features and changed the ones we didn't like (such as the 303 redirection for HTML representation).
-
-While developing [LodLive](https://github.com/dvcama/LodLive), we realized that there was real need for a great interface to spread linked data principles even more effectively, so we spent time designing an interface for LodView that would be easy to use and beautiful to experience. LodView is free to use for all and we hope that the LOD community may appreciate and enjoy our brand new piece of work.
-
-LodView is an open source software, you may download it and use for it your own data publication but it is also a web service (http://lodview.it) useful to browse any resource published using a SPARQL endpoint or published according to the rules of the web of data (aka content negotiation and RDF).
-
-## Demo
-You can find some examples on http://lodview.it.
-
-## Who is using it
-See [the list of known users](https://github.com/dvcama/LodView/wiki/LodView-users).
+## Cyrillic character support
+In this fork of the LodView project we've implemented some improvements for cyrillic characters support and added some UI improvements.
 
 ## Installation instruction
 See [the wiki page](https://github.com/dvcama/LodView/wiki).
@@ -77,9 +62,3 @@ Geographical information is shown as points on a map (thanks to the OSM project)
 ##### SPARQL URL handler
 Because we want the SPARQL endpoint URL to be easy to deduce from a resource's IRI, LodView manages calls to `http://data.yourdomain.com/sparql` redirecting clients to the SPARQL endpoint real URL or proxying it for an even easier access (proxy feature is still under development). This particular feature simplifies server configuration and supports client's discovery capabilities.
 
-##### LodLive integration
-
-**TODO**: We want to integrate LodLive in the interface to avoid LodLive having to be open in a new page. The integration will provide an easy graph navigation model, very useful to better understand resource context and to move on to other resources without using standard hyperlinks.
-
-* * *
-contact information: info@lodlive.it

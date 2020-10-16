@@ -3,7 +3,7 @@ LodView is a Java web application based on Spring and Jena, it's a tool able to 
 
 LodView is easy to configure and deploy for any developer and it dramatically improves the end user’s experience in accessing HTML based representations of RDF resources.
 
-Original project: https://github.com/LodLive/LodView by by [Diego Valerio Camarda](https://www.linkedin.com/in/dvcama) and [Alessandro Antonuccio](https://www.hstudio.it/)
+Original project: https://github.com/LodLive/LodView by [Diego Valerio Camarda](https://www.linkedin.com/in/dvcama) and [Alessandro Antonuccio](https://www.hstudio.it/)
 ## Cyrillic character support
 In this fork of the LodView project we've implemented some improvements for cyrillic characters support and added some UI improvements.
 
